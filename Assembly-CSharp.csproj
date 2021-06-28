@@ -57,8 +57,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Unity\ConstraintSamples\Scripts\mParent.cs" />
-    <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\SkeletonMovement\Controller.cs" />
     <Compile Include="Assets\Unity\Info\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\TransformMovement\MoveTransformPositionWithInput.cs" />
+    <Compile Include="Assets\Scripts\TransformMovement\MoveTransformPositionWithInputLimitMovement.cs" />
+    <Compile Include="Assets\Scripts\TransformMovement\MoveTransformPositionWithInputLimitMovementCleaned.cs" />
+    <Compile Include="Assets\Scripts\TransformMovement\MoveTransformPositionWithInputSmoothly.cs" />
+    <Compile Include="Assets\Scripts\TransformMovement\MoveTransformPositionWithInputSmoothlyAndRotation.cs" />
+    <Compile Include="Assets\Scripts\RigidbodyMovement\MoveWithForce.cs" />
+    <Compile Include="Assets\Scripts\RigidbodyMovement\MoveWithForceUsingTransformRotation.cs" />
+    <Compile Include="Assets\Scripts\RigidbodyMovement\RotateWithMouse.cs" />
+    <Compile Include="Assets\Scripts\RigidbodyMovement\Jump.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
